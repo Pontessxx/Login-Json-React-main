@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './Pages/Home'
 import Homelog from './Components/HomeLog'
+import Footer from './Components/Footer'
 
 function App() {
   const isLoggedIn = sessionStorage.getItem("isLoggedIn") === "true";
@@ -24,6 +25,7 @@ function App() {
           element={isLoggedIn ? <Homelog/> : <Registration />}
         />
       </Routes>
+      <Footer/>
     </Router>
     </>
   )
