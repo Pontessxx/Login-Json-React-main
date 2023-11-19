@@ -12,8 +12,11 @@
 	--mainColorLight: #5767aa;
 	--secondaryColor: #db2b39;
 	--textColor: #eee;
+	--textColorSec: #29335c;
 }
-
+.dark {
+  --mainColor: #252525;
+}
 header {
 	display: flex;
 	align-items: center;
