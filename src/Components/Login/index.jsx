@@ -29,7 +29,7 @@ function Login() {
       } else {
         // Armazenar informações na sessão
         sessionStorage.setItem("userEmail", user.email);
-        sessionStorage.setItem("userName", user.name);
+        sessionStorage.setItem("isLoggedIn", "true"); // Adiciona esta linha
 
         setHome(!home);
         setFlag(false);

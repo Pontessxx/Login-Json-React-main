@@ -9,7 +9,7 @@ const index = () => {
     };
   return (
     <header>
-        <h3>LOGO</h3>
+        <h3>HEALTH ID</h3>
         <nav className={isNavOpen ? "responsive_nav" : ""}>
             <Link to="/"  onClick={showNavbar}>Home</Link>
             <Link to="/register"  onClick={showNavbar}>Registrar</Link>

@@ -43,7 +43,8 @@ function Registration() {
   
       // Salvar hash da senha na sessão
       sessionStorage.setItem("hashedPassword", hashedPassword);
-  
+      sessionStorage.setItem("isLoggedIn", "true"); // Adiciona esta linha
+      
       setFlag(false);
       setLogin(!login);
     } catch (error) {
