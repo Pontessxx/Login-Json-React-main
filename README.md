@@ -1,13 +1,13 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Health ID - Sistema de Gestão de Registros Médicos
+
+RM:98237- Guilherme Brazioli
+RM:98036-Henrique Pontes Olliveira
+
+### login - teste ( utilizado por mim )
+email: teste1@gmail
+senha : a 
+para criar, apenas registre utilize os passos a baixo para rodar o backend e o site, após registrar irá te levar para o login, entre com o que criou e está logado. para sair basta das "logout" clicando no notebook
 
 Este projeto, chamado Health ID, é um sistema inovador de gestão de registros médicos desenvolvido utilizando React com Vite no frontend e uma simulação de backend utilizando JSON Server. Abaixo estão as instruções detalhadas sobre como executar o projeto, inicializar o servidor JSON, e informações sobre o armazenamento seguro de senhas.
 
